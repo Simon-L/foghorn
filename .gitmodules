@@ -1,0 +1,3 @@
+[submodule "libs/jack2"]
+	path = libs/jack2
+	url = https://github.com/jackaudio/jack2
