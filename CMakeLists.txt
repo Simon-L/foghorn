@@ -13,8 +13,8 @@ project(
 include(cmake/project-is-top-level.cmake)
 include(cmake/variables.cmake)
 
-# ---- Add jack2 ----
-add_subdirectory(libs)
+# ---- Add ... ----
+# add_subdirectory(libs)
 
 # ---- Declare library ----
 
