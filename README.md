@@ -3,7 +3,6 @@
 This repo is mostly just `cmake-init`, with some initial structural bits for audio on JELOS.
 
 Patch some things:
-- `patches/netbase.patch`: fix a version conflict
 - `patches/options.patch`: verbose boot for easier diagnosis
 
 Add the packages to your local repo:
