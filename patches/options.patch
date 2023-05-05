@@ -1,0 +1,13 @@
+diff --git a/projects/PC/devices/AMD64/options b/projects/PC/devices/AMD64/options
+index 319466a7..a27717fc 100644
+--- a/projects/PC/devices/AMD64/options
++++ b/projects/PC/devices/AMD64/options
+@@ -12,7 +12,7 @@
+     esac
+ 
+   # kernel command line
+-    EXTRA_CMDLINE="quiet console=tty0 ssh consoleblank=0 systemd.show_status=0 loglevel=0 panic=20 intel_pstate=disable"
++    EXTRA_CMDLINE="console=tty0 systemd.debug_shell=\/dev\/tty0 ssh consoleblank=0 systemd.show_status=1 loglevel=1 panic=20 intel_pstate=disable"
+ 
+   # Partition label
+     PARTITION_TABLE="msdos"
