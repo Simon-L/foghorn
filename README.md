@@ -1,5 +1,7 @@
 # foghorn
 
+> :warning: Wildly uncomplete, you're welcome to look around but there's nothing of any use here really
+
 This repo is mostly just `cmake-init`, with some initial structural bits for audio on JELOS.
 
 Patch some things:
